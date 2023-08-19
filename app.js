@@ -77,3 +77,88 @@
 
 // const y = ""
 
+//non-primitive data types
+// array
+// const fruits = ['apple', 'orange', 'pineaple', 'pawpaw']
+// console.log(typeof fruits)
+// object
+
+// const student = {
+//     name: 'Mogaji Aishah',
+//     occupation: 'Web Developer',
+//     age: '80years old',
+//     address:'Abeokuta'
+// }
+
+
+// console.log(student)
+
+//JavaScript Operators
+//arithmetic operators
+//assignment operators
+//logical operators
+// comparison operators
+
+//arithmetic operators
+// const a = 2;
+// const b = 5;
+// const c = a + b;
+// const y = a-b;
+// const x = a * y;
+// const p = c / b;
+// const q = a ** b; // 2 x 2 x 2 x 2 x 2
+// console.log(q)
+
+// assignment operators
+
+// var a = "b";
+// var x = 5;
+//     x += 10 // x = x + 10
+//     x -= 6; // x = x - 6
+//     x *= 2; // x = x * 2
+//     x++; // x = x + 1
+//     x--; // x = x - 1
+// console.log(x)
+
+//comparison operators
+// const x = 30;
+// const y = 13;
+// console.log(x <= y)
+// console.log(x >= y)
+
+// console.log(x == y)
+// == and ===
+
+// const x = 13;
+// const y = "13";
+// // console.log(x == y)
+// console.log(x === y)
+
+// !=
+// const a = 5
+// const b = '5'
+// console.log(a !== b)
+
+//logical operators
+// const a = 10;
+// const isLoading = true;
+// if(a && isLoading) {
+//     console.log('I love coding')
+// } else{
+//     console.log('I hate coding')
+// }
+
+// if(a && isLoading === false) {
+//     console.log('I love coding')
+// } else{
+//     console.log('I hate coding')
+// }
+
+// const isAged = false;
+// const canDrive = false;
+
+// if(isAged || canDrive) {
+//     console.log('Apply for a driver license')
+// } else{
+//     console.log('do not apply for a driver license')
+// }
