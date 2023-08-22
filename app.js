@@ -162,3 +162,51 @@
 // } else{
 //     console.log('do not apply for a driver license')
 // }
+
+//type conversion
+
+//string to number
+// const ade = 'I am Ade';
+// const convertedAde = Number(ade);
+// console.log(typeof convertedAde)
+
+//number to string
+// const number = 7;
+// const convertedNumber = String(number);
+// console.log(typeof convertedNumber)
+
+//string to boolean
+// const name = 'Aishah'
+// const convertedName = Boolean(name)
+// console.log(typeof convertedName)
+
+//dates 
+// const date = new Date()
+// const convertedDate = date.toString()
+// console.log(convertedDate)
+// const time = date.getTime()
+// const convertedTime = String(time)
+// console.log(date, time, convertedTime)
+
+
+//type coercion
+// const number = 2;
+// const name = 'Aishah'
+// const description = number + name;
+
+// console.log(typeof description)
+
+
+//if else statements
+const age = 15;
+const convertedAge = String(age);
+const number = prompt('Enter Your age') 
+if(number < convertedAge){
+    alert('you are too young for this')
+}  
+else if(number > convertedAge) {
+    alert("You are too old for this")
+} 
+else if(number === convertedAge){
+    alert('You are cool 🌹')
+}
