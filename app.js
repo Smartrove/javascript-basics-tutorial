@@ -198,15 +198,91 @@
 
 
 //if else statements
-const age = 15;
-const convertedAge = String(age);
-const number = prompt('Enter Your age') 
-if(number < convertedAge){
-    alert('you are too young for this')
-}  
-else if(number > convertedAge) {
-    alert("You are too old for this")
-} 
-else if(number === convertedAge){
-    alert('You are cool 🌹')
-}
+// const age = 15;
+// const convertedAge = String(age);
+// const number = prompt('Enter Your age') 
+// if(number < convertedAge){
+//     alert('you are too young for this')
+// }  
+// else if(number > convertedAge) {
+//     alert("You are too old for this")
+// } 
+// else if(number === convertedAge){
+//     alert('You are cool 🌹')
+// }
+
+//string method
+
+
+//length method
+// const name = 'Aishah';
+// const nameLength = name.length
+// console.log(nameLength)
+
+//slice method
+// const occupation  = 'student';
+// const occupationSlice = occupation.slice(3, 7)
+// console.log(occupationSlice)
+
+// let text = "Apple, Banana, Kiwi";
+// let part = text.slice(-12, -6);
+
+// console.log(part)
+
+
+//substring method
+// const occupation  = 'student';
+//  const occupationSubstring = occupation.substring(3, 7)
+//  console.log(occupationSubstring)
+
+//substr method
+// const name = "Aishah"
+// console.log(name.substr(0, 4))
+
+//replace method
+
+// const name = "Aishah"
+// console.log(name.replace(/h/g, "Mogaji"))
+
+
+//replace all method
+
+// let text = "I love cats. Cats are very easy to love. Cats are very popular."
+// text = text.replaceAll("Cats","Dogs");
+// text = text.replaceAll("cats","dogs");
+
+// console.log(text)
+
+//to lower and upper case methods
+
+// const name = 'aishah';
+// const nameUpperCase = name.toUpperCase();
+// console.log(nameUpperCase)
+
+// const nameLowerCase = nameUpperCase.toLowerCase();
+// console.log(nameLowerCase)
+
+//concat method
+// const a = 'ade'
+// const b = 'shola'
+// console.log(a.concat('', b))
+
+//trim method
+// let greeting = "      Hello World!      ";
+// let greetingTrimmed = greeting.trim();
+// console.log(greetingTrimmed)
+// console.log(greeting)
+
+//charat method
+// let text = "HELLO WORLD";
+// let char = text.charAt(4);
+// console.log(char)
+
+//split method
+// const fruit = ['apple', 'orange',]
+// const fruits = 'apple, orange'
+// const fruitsArr = fruits.split(' ')
+// console.log(fruitsArr)
+
+
+
