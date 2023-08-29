@@ -285,4 +285,62 @@
 // console.log(fruitsArr)
 
 
+//switch statements
+//to be solved later
+// const age = 18;
+// const enterAge = prompt("Enter age");
+// switch (age) {
+//   case 1:
+//     if (enterAge < age) {
+//       console.log("cannot obtain driver license");
+//     }
+//     break;
+//   case 2:
+//     if (enterAge >= age) {
+//       console.log("cannot obtain driver license");
+//     }
+//     break;
+//   case 3:
+//     if (enterAge == 75) {
+//       console.log("too old to obtain a driver license");
+//     }
+//     break;
+// }
+
+//ternary operator
+// const age = 15;
+// age >= 18 && age < 75
+//   ? console.log("can obtain a driver license")
+//   : age >= 75
+//   ? console.log("too old to obtain a driver license")
+//   : console.log("cannot obtain a driver license");
+
+//array and array methods
+// const fruits = ["apple", "orange", "watermelon", "banana"];
+// console.log(fruits.length)
+
+// console.log(fruits[fruits.length - 1])
+// console.log(fruits);
+// console.log(fruits[0]);
+// console.log(fruits[3]);
+
+
+//replace an element of an array
+// fruits[3] = 'mango'
+// const fruitsString = fruits.toString()
+// // console.log(typeof fruitsConverted)
+
+// const fruitsArray = fruitsString.split(' ')
+// console.log(fruitsArray)
+
+const fruits = [2, 4, 7, 9, 23];
+
+for(let i = 0; i < fruits.length; i++){
+    const element = fruits[i] * 2
+    console.log(element)
+}
+
+
+
+
 
