@@ -285,26 +285,20 @@
 // console.log(fruitsArr)
 
 
-//switch statements
-//to be solved later
-// const age = 18;
-// const enterAge = prompt("Enter age");
+//switch statement
+// const age = 5;
+
 // switch (age) {
-//   case 1:
-//     if (enterAge < age) {
-//       console.log("cannot obtain driver license");
-//     }
+//   case 35:
+//     console.log("You are now an adult");
 //     break;
-//   case 2:
-//     if (enterAge >= age) {
-//       console.log("cannot obtain driver license");
-//     }
+
+//   case 56:
+//     console.log("You are a grandpa");
 //     break;
-//   case 3:
-//     if (enterAge == 75) {
-//       console.log("too old to obtain a driver license");
-//     }
-//     break;
+
+//   default:
+//     console.log("Grow up dear");
 // }
 
 //ternary operator
@@ -333,12 +327,53 @@
 // const fruitsArray = fruitsString.split(' ')
 // console.log(fruitsArray)
 
-const fruits = [2, 4, 7, 9, 23];
+// const fruits = [2, 4, 7, 9, 23];
 
-for(let i = 0; i < fruits.length; i++){
-    const element = fruits[i] * 2
-    console.log(element)
-}
+// for(let i = 0; i < fruits.length; i++){
+//     const element = fruits[i] * 2
+//     console.log(element)
+// }
+
+//1. given an array with elements, return  the  largest element in the array using javascript function;
+
+//Test data: const arrayNumber = [20, 21, 18, 15, 10, 9, 8, 7, 45]
+
+// function getLargestElement() {
+  const arrayNumber = [20, 21, 18, 15, 10, 9, 8, 7, 45];
+  let largestElement = arrayNumber[0];
+  for (let i = 0; i < arrayNumber.length; i++) {
+    // console.log(arrayNumber[i]);
+    if (arrayNumber[i] > largestElement) {
+      largestElement = arrayNumber[i];
+    }
+  }
+  console.log(largestElement);
+// }
+
+// getLargestElement();
+
+//2. using javascript function, write a program that returns the multiples of 3 and 5 between 0 and 100;
+
+// function getThreeMultiples() {
+//   for (let i = 0; i < 100; i++) {
+//     // console.log(i);
+//     if (i % 3 === 0) {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// getThreeMultiples();
+
+// function getFiveMultiples() {
+//   for (let i = 0; i < 100; i++) {
+//     if (i % 5 === 0) {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// getFiveMultiples();
 
 
 
