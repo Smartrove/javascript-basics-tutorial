@@ -339,15 +339,15 @@
 //Test data: const arrayNumber = [20, 21, 18, 15, 10, 9, 8, 7, 45]
 
 // function getLargestElement() {
-  const arrayNumber = [20, 21, 18, 15, 10, 9, 8, 7, 45];
-  let largestElement = arrayNumber[0];
-  for (let i = 0; i < arrayNumber.length; i++) {
-    // console.log(arrayNumber[i]);
-    if (arrayNumber[i] > largestElement) {
-      largestElement = arrayNumber[i];
-    }
-  }
-  console.log(largestElement);
+//   const arrayNumber = [20, 21, 18, 15, 10, 9, 8, 7, 45];
+//   let largestElement = arrayNumber[0];
+//   for (let i = 0; i < arrayNumber.length; i++) {
+//     // console.log(arrayNumber[i]);
+//     if (arrayNumber[i] > largestElement) {
+//       largestElement = arrayNumber[i];
+//     }
+//   }
+//   console.log(largestElement);
 // }
 
 // getLargestElement();
@@ -374,6 +374,52 @@
 // }
 
 // getFiveMultiples();
+
+
+//array methods continuation
+//join method
+// const foodString = food.join(',');
+// console.log(foodString)
+
+//pop method
+// food.pop() // amala, semo, fufu
+// food.push('pounded-yam') // amala, semo, fufu, pounded-yam
+// food.shift()  // 'semo', 'fufu', 'pounded-yam'
+// food.unshift('cold-pap')
+// const rice = ['white-rice', 'black-rice', 'jollof-rice']
+// const foods = food.concat(rice) // 'cold-pap','semo','fufu','pounded-yam','white-rice','black-rice','jollof-rice'.
+
+
+// continuation on array methods
+//splice method
+// const food = ['amala', 'semo', 'fufu', 'wheat']
+// food.splice(2, 0, "pounded-yam", "eba")
+// food.splice(2, 1, "pounded-yam", "eba")
+// food.splice(0, 1)
+
+
+
+//slice method
+// const food = ['amala', 'semo', 'fufu', 'wheat']
+// const sliceFood = food.slice(3)
+// console.log(sliceFood)
+
+//sorting method
+// const number = [9, 5, 7, 2, 4, 1, 6, 10, 21]
+// const sortedNumber = number.sort()
+// console.log(sortedNumber)
+
+//template literal or template string
+// const firstName = 'Aishah'
+// const lastName = "Mogaji"
+// const age = '20'
+// const occupation = 'Web Developer'
+// const placeOfBirth = 'Abeokuta'
+
+// const personalInfo = `I am ${firstName} ${lastName}. I am ${age } years old. I am a ${occupation}. I was born in ${placeOfBirth}.`
+
+// console.log(personalInfo)
+
 
 
 
