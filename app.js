@@ -421,6 +421,48 @@
 // console.log(personalInfo)
 
 
+//javascript function
+// const x = 2; //global variable
+// function loopOfNumbers(){
+//     // const y = 2; //local variable
+//     // console.log(x + y);
+//     // const number = [1, 3,5,7,9,2, 4, 6, 8]
+//     // for(let i = 0; i < number.length; i++){
+//     //     console.log(number[i]);
+//     // }
+// }
+
+// // console.log(x)
+// loopOfNumbers()
+
+//arrow function
+// const loopOfNumbers = () =>{
+//     const fruits = ['apple', 'orange', 'pawpaw']
+//     fruits.push('pineapple')
+//     console.log(fruits)
+// }
+
+// loopOfNumbers()
+
+//callback function
+// function sortNumbers(){
+// const number = [1, 3,5,7,9,2, 4, 6, 8, 10, 21, 23]
+// const numberSorted = number.sort(function(aishah, mogaji){
+//     return mogaji - aishah
+// });
+// console.log(numberSorted)
+// }
+
+// sortNumbers()
+
+const numberFunction = (a,b) =>{
+    console.log(a * b)
+}
+
+numberFunction(2,2) //argument
+
+
+
 
 
 
