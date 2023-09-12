@@ -455,13 +455,83 @@
 
 // sortNumbers()
 
-const numberFunction = (a,b) =>{
-    console.log(a * b)
-}
+// const numberFunction = (a,b) =>{
+//     console.log(a * b)
+// }
 
-numberFunction(2,2) //argument
+// numberFunction(2,2) //argument
 
 
+
+// const number = [1,2,3,4,5]
+
+// for (let i = 0; i < number.length; i++) {
+// const element = number[i]
+// // console.log(element)
+// const newNumber = element * 2
+// console.log(newNumber)
+// }
+
+const text = 'paranoid'
+const splitText = text.split('')
+const textSorted = splitText.sort()
+const textSortedString = textSorted.join('')
+console.log(textSortedString)
+
+//function expression
+
+// const numberLoop = function (){
+// return 2 * 2;
+// }
+
+// console.log(numberLoop())
+
+// let y = [1,2,3]
+// const numberLoop = function(){
+//     for(let iterator = 0; iterator < y.length; iterator++){
+//         // console.log(y[iterator])
+//         const multiply = y[iterator] * 7
+//         console.log(multiply)
+//     }
+// }
+
+// numberLoop()
+
+
+// const a = function (x, b) {
+//     return b * x
+// }
+
+
+// const b = function(m, y){
+//     const c = a(m, y)
+//     return c * 2
+// }
+
+// console.log(b(2,3))
+
+
+//the while loop
+// let a = 1;
+// while (a <= 10){
+
+//    console.log( a * 2)
+//     a++;
+// }
+
+// const text = 'paranoid';
+
+// Convert the string to an array of characters
+// const charArray = text.split('');
+// console.log(charArray)
+
+// // Sort the array in alphabetical order
+// charArray.sort();
+
+// // Join the sorted array back into a string
+// const sortedText = charArray.join('');
+
+// console.log(sortedText); // Output: 'aadinopr'
 
 
 
