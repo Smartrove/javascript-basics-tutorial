@@ -472,11 +472,11 @@
 // console.log(newNumber)
 // }
 
-const text = 'paranoid'
-const splitText = text.split('')
-const textSorted = splitText.sort()
-const textSortedString = textSorted.join('')
-console.log(textSortedString)
+// const text = 'paranoid'
+// const splitText = text.split('')
+// const textSorted = splitText.sort()
+// const textSortedString = textSorted.join('')
+// console.log(textSortedString)
 
 //function expression
 
@@ -533,6 +533,109 @@ console.log(textSortedString)
 
 // console.log(sortedText); // Output: 'aadinopr'
 
+//more on looping
+
+//for loop
+// for(let i = 0; i < 100; i++) {
+//     if(i % 2){
+//         console.log(`I love ${i}`)
+//     }
+// }
+// for(let i = 0; i < 10; i++) {
+//     console.log(i)
+//     if(i === 5){
+//         console.log(`I love ${i}`)
+//         break
+//     }
+// }
+
+//the while loop
+// let i = 0;
+// while(i < 10){
+//     if(i === 5){
+//         console.log(`this is cool ${i}`)
+
+//     }
+//     i++;
+// }
+
+//the do while loop
+// let i = 0;
+// do{
+//     if(i === 4){
+//         console.log(`this is cool ${i}`)
+//     }
+
+//     i++;
+// }
+
+// while(i < 10)
+
+//for each loop
+
+// const fruits = ['apple', 'orange', 'papaya']
+// fruits.forEach((fruit)=>{
+//     console.log(`2 ${fruit}`)
+// })
+
+//mapping method
+//  const fruits = ['apple', 'orange', 'papaya']
+//  const mappedFruits = fruits.map((fruit)=> {
+//     return fruit;
+//  })
+
+//  console.log(mappedFruits)
+
+//object
+// const person = {
+//     firstName : 'Mogaji',
+//     lastName : 'Aishah',
+//     age: 20,
+//     hobbies: ['football', 'eating', 'talking', 'sleeping'],
+//     getBirthYear : function() {
+//         return 2023 - this.age;
+//     }
+// }
+
+// //dot notation
+// //bracket notation
+
+// // console.log(person.firstName)
+// // console.log(person.lastName)
+// // console.log(`I am ${person.firstName} ${person.lastName}`)
+// console.log(person['firstName'])
+// console.log(`i am ${person['lastName']} ${person['firstName']}`)
+
+// console.log(person.hobbies[0])
+// console.log(person.getBirthYear())
+
+// const data = [
+//     {id: 1, name : 'apple'}, 
+// {id: 2, name : 'mango'},
+// {id: 3, name : 'papaya'}
+// ]
+
+// const mappedData = data.map((item)=> {
+// return item.name
+// })
+
+
+// console.log(mappedData)
+
+//for in loop
+const person = {
+    firstName : 'Mogaji',
+    lastName : 'Aishah',
+    age: 20,
+    hobbies: ['football', 'eating', 'talking', 'sleeping'],
+    getBirthYear : function() {
+        return 2023 - this.age;
+    }
+}
+
+for(x in person){
+    console.log(person[x])
+}
 
 
 
