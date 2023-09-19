@@ -623,20 +623,69 @@
 // console.log(mappedData)
 
 //for in loop
-const person = {
-    firstName : 'Mogaji',
-    lastName : 'Aishah',
-    age: 20,
-    hobbies: ['football', 'eating', 'talking', 'sleeping'],
-    getBirthYear : function() {
-        return 2023 - this.age;
-    }
-}
+// const person = {
+//     firstName : 'Mogaji',
+//     lastName : 'Aishah',
+//     age: 20,
+//     hobbies: ['football', 'eating', 'talking', 'sleeping'],
+//     getBirthYear : function() {
+//         return 2023 - this.age;
+//     }
+// }
 
-for(x in person){
-    console.log(person[x])
-}
+// for(x in person){
+//     console.log(person[x])
+// }
 
+//destructing 
+// const number = [2,3,4]
+// // const a = number[0]
+// // const b = number[1]
+// const [a,b,c] = number;
+// console.log(b)
+
+// const nested = [2,4, [5,6]]
+// const [i,m, [j,k] ] = nested;
+// console.log(j, k, i, m)
+
+// const day = {
+// monday:{
+//     open: 9,
+//     close: 9
+// },
+// tuesday: {
+//     open: 10,
+//     close: 8
+// },
+// wednesday:{
+//     open: 11,
+//     close: 12
+// }
+// }
+
+// const {monday, tuesday, wednesday} = day;
+// console.log(monday, tuesday, wednesday)
+
+//spread operator
+// const array = [7, 8, 9]
+// const oldArr = [2,3,4, ...array];
+// console.log(...oldArr)
+
+// console.log(window)
+// window.alert("Aishah is a lazy girl")
+
+let value;
+value = window.innerWidth
+value= window.innerHeight
+value = window.location.href
+value = window.location.pathname
+
+// window.location.href = 'https://www.google.com'
+// value = window.location.reload()
+value = window.history
+value = window.navigator
+value = window.navigator.appName
+console.log(value);
 
 
 
