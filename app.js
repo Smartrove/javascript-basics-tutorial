@@ -674,18 +674,78 @@
 // console.log(window)
 // window.alert("Aishah is a lazy girl")
 
-let value;
-value = window.innerWidth
-value= window.innerHeight
-value = window.location.href
-value = window.location.pathname
+// let value;
+// value = window.innerWidth
+// value= window.innerHeight
+// value = window.location.href
+// value = window.location.pathname
 
-// window.location.href = 'https://www.google.com'
-// value = window.location.reload()
-value = window.history
-value = window.navigator
-value = window.navigator.appName
-console.log(value);
+// // window.location.href = 'https://www.google.com'
+// // value = window.location.reload()
+// value = window.history
+// value = window.navigator
+// value = window.navigator.appName
+// console.log(value);
+
+//DOM (Document Object Model)
+
+// console.log(document)
+// let value;
+// value = document;
+// value = document.all
+// value = document.all.length
+// value = document.forms
+// value = document.forms[0].id
+// value = document.forms[0].method
+
+
+
+// //document links
+// value = document.links
+// value = document.images
+// console.log(value)
+
+//selector
+//getElementById
+// console.log(document.getElementById('task-title'))
+// console.log(document.getElementById('task-title').id)
+// console.log(document.getElementById('task-title').className)
+
+// const taskHeading = document.getElementById('task-title')
+
+// // document.getElementById('task-title').style.background = '#ccc'
+// // document.getElementById('task-title').textContent = 'Task Title'
+// // document.getElementById('task-title').innerHTML = '<span>Hello DOM</span>'
+// // document.getElementById('task-title').style.display = 'none'
+
+// taskHeading.style.background = 'red'
+// taskHeading.style.color = '#fff'
+
+//query selector
+// const taskHeading = document.querySelector('#task-title');
+// taskHeading.style.background = 'teal'
+// taskHeading.style.color = '#fff'
+
+// const name = document.querySelector('li:nth-child(even)');
+
+// name.textContent = 'Hello World'
+
+//getElementByClassName
+
+// let items = document.getElementsByClassName('item');
+// let itemsData = [...items];
+
+// itemsData.forEach((item, index)=>{
+//     // console.log(item)
+//     item.textContent = `${index}: Hello JavaScript`
+//     item.reverse()
+
+// })
+
+const items = document.querySelectorAll('ul.task-collection li.item');
+const itemsData = [...items]
+console.log(itemsData)
+
 
 
 
