@@ -742,9 +742,31 @@
 
 // })
 
-const items = document.querySelectorAll('ul.task-collection li.item');
-const itemsData = [...items]
-console.log(itemsData)
+// const items = document.querySelectorAll('ul.task-collection li.item');
+// const itemsData = [...items]
+// console.log(itemsData)
+
+// document.querySelector('.item').addEventListener('click', function(){
+// window.alert('Hello JavaScript item one')
+// })
+// document.querySelector('.item2').addEventListener('click', function(){
+// window.alert('Hello JavaScript item two')
+// })
+
+// document.querySelector('.item2').addEventListener('click', onClick)
+
+// function onClick(e) {
+//     let value;
+//     value = e;
+//     // console.log(e.target.value)
+//     e.target.innerText = "Hello"
+// }
+
+document.querySelector('.clear').addEventListener('click', checkEvent)
+
+function checkEvent(e){
+    alert(`Event type: ${e.type}`)
+}
 
 
 
